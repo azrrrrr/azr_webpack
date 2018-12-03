@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    [
+      "transform-runtime",
+      "transform-flow-comments",
+      {
+        "polyfill": false
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "es2015",
+      {
+        "modules": false
+      }
+    ],
+    "stage-2",
+    "flow"
+  ]
+}
